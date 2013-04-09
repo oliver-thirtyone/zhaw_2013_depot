@@ -60,6 +60,6 @@ module Depot
     config.assets.version = '1.0'
 
     # Precompile assets
-    config.assets.precompile += %w( *.js *.css )
+    config.assets.precompile += %w( *.js *.css scaffold.css )
   end
 end
