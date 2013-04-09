@@ -5,6 +5,8 @@ rails.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 rails/index.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 application.js: application-9761486e0a2f0ddb3e63962b80498add.js
 application/index.js: application-9761486e0a2f0ddb3e63962b80498add.js
+defaults.js: defaults-f00251f452c48102b58e406cc891259e.js
+defaults/index.js: defaults-f00251f452c48102b58e406cc891259e.js
 products.js: products-a7fa98ba2ef09a5dcc079d3f014a4e3c.js
 products/index.js: products-a7fa98ba2ef09a5dcc079d3f014a4e3c.js
 store.js: store-a7fa98ba2ef09a5dcc079d3f014a4e3c.js
