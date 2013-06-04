@@ -6,11 +6,11 @@ gem 'rails', '3.2.12'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 group :production, :staging do
-  gem 'pg'
+gem 'pg'
 end
 
 group :development, :test do
-  gem 'sqlite3', :require => 'sqlite3'
+gem 'sqlite3', :require => 'sqlite3'
 end
 
 

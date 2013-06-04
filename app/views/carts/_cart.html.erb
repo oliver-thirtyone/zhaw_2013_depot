@@ -1,0 +1,12 @@
+<h2>Best.Cart.ever</h2>
+<table>
+	<%= render(cart.line_items) %>
+	
+	<tr class="total_line">
+		<td colspan="2">Total</td>
+		<td class="total_cell"><%= number_to_currency(cart.total_price, :unit => "CHF ") %></td>
+	</tr>
+</table>
+<br>
+<%= button_to 'Zur Kasse!', new_order_path, method: :get %>
+<%= button_to 'Warenkorb leeren', cart, method: :delete, data: { confirm: 'Sind Sie sicher?'} %>
